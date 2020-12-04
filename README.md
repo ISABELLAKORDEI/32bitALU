@@ -6,7 +6,7 @@ we are developing an ALU that takes two 32-bit inputs A and B,and executes the f
 ************************************************************************************************************************************************************************
 *************************************************Verilog code for the 32 bit alu with the specific intrusctions*********************************************************
 
-module trial(                           //module name should be the same as the project name 
+module trial(                            
            input [31:0] A,B,  // ALU 32-bit Inputs                 
            input [2:0] ALU_Sel,// ALU Selection
            output [31:0] ALU_Out, // ALU 32-bit Output
